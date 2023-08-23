@@ -1,0 +1,82 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Brandon+Grotesque:wght@400;600&display=swap'); */
+
+.main-content--container {
+    margin-top: 150px;
+}
+
+.welcome--text {
+    color: #2E3192;
+    text-align: center;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 200;
+    margin-bottom:0;
+}
+
+.intro--text {
+    margin : 0; 
+    padding-top:10px;
+    color: #212127;
+    text-align: center;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 550;
+}
+
+.secondary--text{
+    color: #595EFF;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.new--line {
+    margin: 0;
+}
+
+.underline {
+    margin-top: 10px;
+    margin-left: 45%;
+    width: 270px;
+}
+
+.contact--button {
+    display: flex;
+    width: 210px;
+    height: 30px;
+    padding: 24.216px 41.514px;
+    justify-content: center;
+    align-items: center;
+    gap: 13.838px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(4, 11, 255, 0.70) 0%, rgba(0, 8, 255, 0.30) 100%);
+    backdrop-filter: blur(20px);
+    color: #FEFEFE;
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border:1px solid #b9bbff;
+}
+
+.contact--button:hover {
+    background: linear-gradient(135deg, rgba(4, 11, 255, 0.90) 0%, rgba(0, 8, 255, 0.50) 100%);
+    backdrop-filter: blur(20px);
+    color: #FEFEFE;
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border:1px solid #b9bbff;
+}
+
+/* *{
+    outline: 2px solid red !important;
+    background-color: rgba(10, 243, 30, 0.3) !important;
+} */

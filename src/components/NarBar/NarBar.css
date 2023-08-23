@@ -1,0 +1,28 @@
+.navbar--container {
+    margin: 30px 60px;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(20px);
+}
+
+.logo {
+    width: 45px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.navbar--items {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.navbar--item:hover {
+    cursor: pointer;
+    color: var(--black-75, rgba(29, 35, 39, 0.75));;
+}
