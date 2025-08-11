@@ -1,6 +1,6 @@
 import insta from '../../../public/SocialLogos/insta.png'
 import fb from '../../../public/SocialLogos/fb.png'
-import twitter from '../../../public/SocialLogos/twitter.png'
+import twitter from '../../../public/SocialLogos/Twitter.png'
 import './Footer.css'
 
 const Footer = () => {
